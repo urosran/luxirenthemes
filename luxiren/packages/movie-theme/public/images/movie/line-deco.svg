@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="279px" height="1522px" viewBox="0 0 279 1522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="63.0863452%" y1="70.3329597%" x2="54.3548605%" y2="-17.8388589%" id="linearGradient-1">
+            <stop stop-color="#E91E63" offset="0%"></stop>
+            <stop stop-color="#304FFE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Video-Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-2260.000000, -11170.000000)" stroke="url(#linearGradient-1)" stroke-width="8">
+            <g id="Footer" transform="translate(1.000000, 11122.000000)">
+                <g id="Rectangle" transform="translate(0.000000, -0.000000)">
+                    <path d="M2416.23061,-618.614079 L2228.99992,1704.88372 L3239.85412,1704.88372 C3141.76403,1536.72437 3108.17598,1380.91006 3138.73006,1237.47919 C3161.35588,1131.26613 3206.11572,1056.40311 3247.22804,987.724359 C3292.9049,911.420488 3334.13325,842.866583 3334.13325,746.462387 C3334.13325,624.037516 3268.12773,539.051748 3195.79313,445.437237 C3171.28269,413.71614 3146.02266,381.02036 3122.26127,345.604855 C3067.47383,263.946108 3060.92611,152.253831 3103.39351,10.334206 C3145.11858,-129.104659 3234.17177,-297.866534 3370.64315,-495.91241 L2416.23061,-618.614079 Z" transform="translate(2801.164626, 542.883725) rotate(179.000000) translate(-2801.164626, -542.883725) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

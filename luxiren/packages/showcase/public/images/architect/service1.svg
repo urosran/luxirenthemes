@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="222px" height="215px" viewBox="0 0 222 215" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.282034602 66.0082724 0.282034602 170.717651 45.6827958 170.717651 45.6827958 97.9983389 118.316637 97.9983389 118.316637 170.717651 163.715696 170.717651 163.715696 66.0082724 81.9988651 0.563561462"></polygon>
+        <polygon id="path-3" points="0.28316955 66.0088405 0.28316955 170.716515 45.6822284 170.716515 45.6822284 97.9983389 118.317772 97.9983389 118.317772 170.716515 163.716263 170.716515 163.716263 66.0088405 82 0.562425249"></polygon>
+        <polygon id="path-5" points="54.8910701 44.172 54.8910701 18.5714286 18.4864442 18.5714286 18.4864442 73.4297143 0.283846753 87.9977143 218.715584 87.9977143 109.498862 0.285714286"></polygon>
+        <polygon id="path-7" points="54.891639 44.1708571 54.891639 18.572 18.487013 18.572 18.487013 73.4291429 0.283846753 87.9982857 218.715584 87.9982857 109.5 0.285142857"></polygon>
+    </defs>
+    <g id="Architecture-Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-413.000000, -1991.000000)">
+            <g id="Services" transform="translate(169.000000, 1620.000000)">
+                <g id="Item" transform="translate(33.000000, 373.000000)">
+                    <g id="Group-17" transform="translate(212.000000, 0.000000)">
+                        <g id="Group-3" transform="translate(28.000000, 39.500000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <polygon id="Stroke-1" stroke="#4CAF50" stroke-width="5" mask="url(#mask-2)" points="-11.633218 182.646179 175.633218 182.646179 175.633218 -13.9186047 -11.633218 -13.9186047"></polygon>
+                        </g>
+                        <g id="Group-6" transform="translate(28.000000, 39.500000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <polygon id="Stroke-4" stroke="#4CAF50" stroke-width="5" mask="url(#mask-4)" points="-4868.07612 4663.30066 3987.92388 4663.30066 3987.92388 -3943.50997 -4868.07612 -3943.50997"></polygon>
+                        </g>
+                        <polygon id="Stroke-7" stroke="#4CAF50" stroke-width="5" points="192 210.5 146.444444 210.5 146.444444 137.848002 73.5555556 137.848002 73.5555556 210.5 28 210.5 28 105.886798 110 40.5 192 105.886798"></polygon>
+                        <g id="Group-10" transform="translate(0.000000, 0.500000)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <g id="Clip-9"></g>
+                            <polygon id="Stroke-8" stroke="#4CAF50" stroke-width="5" mask="url(#mask-6)" points="-2.55974026 97.3617143 221.55974 97.3617143 221.55974 -2.57142857 -2.55974026 -2.57142857"></polygon>
+                        </g>
+                        <g id="Group-13" transform="translate(0.000000, 0.500000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <g id="Clip-12"></g>
+                            <polygon id="Stroke-11" stroke="#4CAF50" stroke-width="5" mask="url(#mask-8)" points="-4852.41429 4729.42857 4024.76494 4729.42857 4024.76494 -3927.71429 -4852.41429 -3927.71429"></polygon>
+                        </g>
+                        <polyline id="Stroke-14" stroke="#4CAF50" stroke-width="5" points="219 88.5 110 1.5 55.5 45.0289059 55.5 19.6370441 19.1666667 19.6370441 19.1666667 74.0476097 1 88.5"></polyline>
+                        <polygon id="Stroke-15" stroke="#4CAF50" stroke-width="5" points="88 210.5 133 210.5 133 150.5 88 150.5"></polygon>
+                        <polygon id="Stroke-16" stroke="#4CAF50" stroke-width="5" points="46 52.0235941 28 66.5 28 28.5 46 28.5"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

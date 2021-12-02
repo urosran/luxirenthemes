@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <title>Luxiren - Documentation</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Syntax Hightlighter CSS -->
+    <link href="../css/prism.css" rel="stylesheet">
+  
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div id="wrapper" class="toggled">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#" class="logo">
+                        <img src="../images/logo.png" alt="logo" />
+                    </a>
+                </li>
+                <li class="sidebar-brand">
+                    <h4>UI and Languages</h4>
+                </li>
+                <li>
+                    <a href="#brand" class="cur">Brand/Project Name</a>
+                </li>
+                <li>
+                    <a href="#youtube" class="cur">Youtube Config</a>
+                </li>
+                <li>
+                    <a href="#menu">Navigation Menu</a>
+                </li>
+                <li>
+                    <a href="#theme">Change Layout(RTL) and Theme</a>
+                </li>
+                <li>
+                    <a href="#lang">Set Language</a>
+                </li>
+            </ul>
+            <a class="back" href="../index.html"><i class="glyphicon glyphicon-arrow-left"></i> Back to Main Docs</a>
+            <span class="copy">&copy; Copyright 2021 - Luxiren</span>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- main content -->
+        <div id="page-content-wrapper">
+          <div class="container-fluid">
+            <!-- BRANDING -->
+            <section class="row" id="brand">
+                <br /><br />
+                <div class="col-lg-10">
+                    <h1>Brand/Project Name</h1>
+                    <hr />
+                    <ul>
+                      <li>Open <code>/static/text/brand.js</code></li>
+                      <li>
+                        Here's bellow the available brand attribute
+                        <pre><code class="language-js">
+module.exports = {
+  starter: {
+    name: 'Luxi Starter',
+    desc: 'Luxi Starter - React Starter Template',
+    prefix: 'luxi',
+    footerText: 'Luxi Theme All Rights Reserved 2019',
+    logoText: 'Luxi Theme',
+    projectName: 'Starter Project',
+    url: 'luxi.ux-maestro.com',
+    img: '/static/images/logo.png',
+    notifMsg: 'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.'
+  }
+};
+</code></pre>
+                      </li>
+                      <li>
+                        Those attribute will affect in HTML &lsaquo;head&rsaquo; content and other branding name
+                      </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- END -->
+
+            <!-- NAVIGATION -->
+            <section class="row" id="menu">
+                <br /><br />
+                <div class="col-lg-12">
+                    <h1>Navigation Menu</h1>
+                    This template use 2 type of menu. There are desktop and mobile version
+                    <hr />
+                    <ul>
+                      <li>For Desktop: <code>/components/Header/Header.js</code></li>
+                      <li>For Mobile: <code>/components/Header/MobileMenu.js</code></li>
+                      <li>
+                        Those components get the list data from <code>/components/Header/menu.js</code>
+                      </li>
+                      <li>
+                        <strong>Important: The menu name must be same as page name.</strong><br />
+                        Once create a new page, then want to add in navigation components (header and mobile sidebar),
+                        you can put the page in <code>/components/Header/menu.js</code>.
+                      </li>
+                      <li>
+                        Here's bellow the diagram routing menu to be displayed in UI Component
+                        <iframe frameborder="0" style="width:100%;height:700px;" src="./LuxiNext.html"></iframe>
+                      </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- END -->
+            
+            <!-- THEME -->
+            <section class="row" id="theme">
+              <div class="col-lg-10">
+                <h1>Change Layout(RTL) and Theme</h1>
+                <hr />
+                  <img src="../images/guide_theme.jpg" width="800" alt="theme" />
+                    <br /><br />
+                    This template has <strong>20 Themes with dark/light</strong> appearance.
+                    And also support for <strong>RTL</strong> direction.
+                    You can change the layout via theme panel but not permanently. To make the layout permanent just follow this step. <br /> <br />
+                    <ul>
+                      <li>Open <code>/pages/_app.js</code></li>
+                      <li>
+                        Then change the <code>state.theme</code> value. Here's the available api:
+                        <table class="tg">
+                          <tbody>
+                            <tr>
+                              <th class="tg-yw4l">Key</th>
+                              <th class="tg-yw4l">Type</th>
+                              <th class="tg-yw4l">Available Value</th>
+                              <th class="tg-yw4l">Example</th>
+                            </tr>
+                            <tr>
+                              <td class="tg-yw4l"><code>Color:</code></td>
+                              <td valign="top">String</td>
+                              <td>
+                                <code>'oceanBlue'</code>,
+                                <code>'greenLeaf'</code>,  <br />
+                                <code>'greyscale'</code>,
+                                <code>'cloud'</code>,  <br />
+                                <code>'violet'</code>,
+                                etc
+                              </td>
+                              <td valign="top"><code>...appTheme('oceanBlue', themeType),</code></td>
+                            </tr>
+                            <tr>
+                              <td class="tg-yw4l"><code>Theme mode:</code></td>
+                              <td valign="top">String</td>
+                              <td>
+                                <code>'light'</code>,
+                                <code>'dark'</code>,
+                              </td>
+                              <td valign="top"><code>...appTheme('oceanBlue', 'dark'),</code></td>
+                            </tr>
+                            <tr>
+                              <td class="tg-yw4l"><code>direction:</code></td>
+                              <td valign="top">String</td>
+                              <td>
+                                <code>ltr</code>,
+                                <code>rtl</code>,
+                              </td>
+                              <td valign="top"><code>direction: 'rtl'</code></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br />
+                        <strong>Here's the complete code, for greenLeaf color in dark mode with RTL direction</strong>
+                            <pre><code class="language-js">// file: app/redux/modules/uiReducer.js
+state = {
+  loading: true,
+  theme: {
+    ...appTheme('greenLeaf', 'dark'),
+    direction: 'rtl'
+  }
+}
+    </code></pre>
+                      </li>
+                    </ul>
+                  <br /><br />
+              </div>
+            </section>
+            
+            
+            
+            <!-- Youtube -->
+            <section class="row" id="youtube">
+              <div class="col-lg-10">
+                <h1>Youtube Config</h1>
+                <hr />
+                <p>
+                  This template us <strong>React Youtube</strong> a simple react component acting as a thin layer over the YouTube IFrame Player API.
+                  To use this feature we recommend to use https in production. If not there will be some warnings in browser console related cookies and security.
+                </p>
+                <p>
+                  You can disable this feature by open <code>/youtube.js</code> then set set <code>use: false</code>.
+                </p>
+              </div>
+            </section>
+            
+            <!-- End -->
+            
+            
+            
+            <!-- NAVIGATION -->
+            <section class="row" id="lang">
+                <br /><br />
+                <div class="col-lg-10">
+                    <h1>Set Language</h1>
+                    <hr />
+                    <img src="../images/lang.png" alt="lang" />
+                    <br /><br />
+                    <ul>
+                      <li>
+                        <h5>
+                          To set default language
+                        </h5>
+                        <ol>
+                          <li>Open <code>/i18n.js</code></li>
+                          <li>change <code>defaultLanguage: 'en'</code> to other initial locale i.e. <code>id</code> for Bahasa Indonesia</li>
+                        </ol>
+                      </li>
+                      <li>
+                        <h5>
+                          Add new language
+                        </h5>
+                        <ol>
+                          <li>
+                            By default, next-i18next expects your translations to be organised as such by create new language JSON library in <code>/static/locales/[localCode]/</code>
+                            <pre>
+└── static
+    └── locales
+        ├── en
+        |   └── common.json
+        └── de
+            └── common.json
+                            </pre>
+                          </li>
+                          <li>You can check the available local code here <a href="https://github.com/ladjs/i18n-locales" target="_blank">https://github.com/ladjs/i18n-locales</a></li>
+                          <li>Then register it in <code>/i18n.js</code></li>
+                          <li>
+                            Declaring namespace dependencies in <code>_document.js</code>
+                            <pre>
+                              <code class="language-js">
+MyDocument.getInitialProps = async ctx => {
+  return {
+    namespacesRequired: ['common', 'landing-theme'],
+  }
+})
+                              </code>
+                            </pre>
+                          </li>
+                        </ol>
+                      </li>
+                      <li>
+                            <h5>
+                              Put the messages to the React Components
+                            </h5>
+                            <ol>
+                              <li>Choose page that one to be translated, i.e <code>/pages/index.js</code></li>
+                              <li>
+                                Then add namespace dependencies
+                                <pre>
+                                  <code class="language-js">
+Landing.getInitialProps = async () => ({
+  namespacesRequired: ['common', 'landing-theme'],
+})
+                                  </code>
+                                </pre>
+                              </li>
+                              <li>Pick one of sample <strong>Components</strong> with cointaining text</li>
+                              <li>Import withTranslation <br />
+                                 <pre><code class="language-js">
+import { withTranslation } from '~/i18n';                              
+                                 </code></pre>
+                              </li>
+                              <li>Basically the message value is <strong>String</strong>. And next step is replace/add every string in components</li>
+                              <li>
+                                Register <code>t</code> function to props
+                                <pre>
+                                  <code class="language-js">
+t: PropTypes.func.isRequired
+                                  </code>
+                                </pre>
+                              </li>
+                              <li>
+                                Add messages inside components <br />
+                                <pre>
+                                  <code class="language-js">
+&lt;Typography component="p"&gt;
+  {t('landing-theme:footer_counter')}
+&lt;Typography&gt;
+                                  </code>
+                                </pre>
+                              </li>
+                              <li>
+                                The last step, wrap the component with <code>withTranslation</code>, then open your translated page.
+                                <pre>
+                                  <code class="language-js">
+export default withTranslation(['landing-theme'])(Counter);
+                                  </code>
+                                </pre>
+                              </li>
+                            </ol>
+                          </li>
+                    </ul>
+                </div>
+            </section>
+          </div>
+        </div>
+        <!-- END -->
+      
+      <br /><br />
+            <!-- END -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+  
+    <!-- Syntax Highligher -->
+    <script src="../js/prism.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.bundle.js"></script>
+
+    <!-- Jquery scrollTo -->
+    <script src="../js/jquery.nav.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $(document).ready(function() {
+        	$('#sidebar-wrapper .sidebar-nav').onePageNav();
+        });
+    </script>
+
+</body>
+
+</html>

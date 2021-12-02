@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="118px" viewBox="0 0 150 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>hd-video</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Education-Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-287.000000, -1858.000000)">
+            <g id="Main-Feature" transform="translate(188.000000, 1406.000000)">
+                <g id="Counter-1" transform="translate(0.000000, 344.000000)">
+                    <g id="hd-video" transform="translate(101.000000, 110.000000)">
+                        <path d="M121.627273,76.5218613 L131.293939,86.0218613 L145.793939,86.0218613 L145.793939,10.0218613 L131.293939,10.0218613 L121.627273,19.5218613 L107.127273,19.5218613 L107.127273,10.0218613 C107.127273,4.77515618 102.799358,0.521861301 97.4606059,0.521861301 L10.4606059,0.521861301 C5.12185332,0.521861301 0.793939239,4.77515618 0.793939239,10.0218613 L0.793939239,86.0218613 C0.793939239,91.2685664 5.12185332,95.5218613 10.4606059,95.5218613 L15.2939392,95.5218613" id="Path" stroke="#000000" stroke-width="4" stroke-linejoin="round"></path>
+                        <line x1="106.793939" y1="19.5218613" x2="106.793939" y2="57.5218613" id="Path" stroke="#000000" stroke-width="2" stroke-linejoin="round"></line>
+                        <g id="_Group_" transform="translate(24.793939, 18.521861)">
+                            <polygon id="Path" fill="#000000" fill-rule="nonzero" points="0 0 58 0 58 20 0 20"></polygon>
+                            <polygon id="Path" stroke="#000000" stroke-width="2" stroke-linejoin="round" points="0 0 58 0 58 20 0 20"></polygon>
+                        </g>
+                        <path d="M87.7939392,110.521861 C96.0782105,110.521861 102.793939,104.141919 102.793939,96.2718613 L102.793939,86.7718613 C102.793939,78.9018036 96.0782105,72.5218613 87.7939392,72.5218613 L77.7939392,72.5218613 C75.0325155,72.5218613 72.7939392,74.6485087 72.7939392,77.2718613 L72.7939392,105.771861 C72.7939392,108.395214 75.0325155,110.521861 77.7939392,110.521861 L87.7939392,110.521861" id="Path" stroke="#000000" stroke-width="2" stroke-linejoin="round"></path>
+                        <line x1="59.7939392" y1="67.5218613" x2="59.7939392" y2="115.521861" id="Path" stroke="#000000" stroke-width="2" stroke-linejoin="round"></line>
+                        <line x1="29.7939392" y1="115.521861" x2="29.7939392" y2="67.5218613" id="Path" stroke="#000000" stroke-width="2" stroke-linejoin="round"></line>
+                        <line x1="30.7939392" y1="90.5218613" x2="60.7939392" y2="90.5218613" id="Path" stroke="#000000" stroke-width="2" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
